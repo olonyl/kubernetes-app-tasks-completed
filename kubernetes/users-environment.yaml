@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: user-data-store-env
+data:
+  #AUTH_ADDRESS: "10.103.48.181"
+  AUTH_ADDRESS: "auth-service.default"
